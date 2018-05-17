@@ -1,6 +1,6 @@
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
-  background: #f1f1f1;
+  background: lightgrey;
 }
 
 h1 {
@@ -8,15 +8,19 @@ h1 {
   color:skyblue;
   padding:40px;
   text-align: left;
+  border-bottom: 6px solid black;
 }
 
 h2 {
   font-size: 30px;
   color:skyblue;
   padding:40px;
-  text-align: left;
+  text-align: center;
 }
 
+img {
+  margin-right: 10px;
+}
 
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
@@ -25,6 +29,7 @@ h2 {
   cursor: pointer;
   background:skyblue;
   color: white;
+  align-content: left;
 }
 
 
@@ -38,9 +43,10 @@ h2 {
 /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
 .header h1 {
   padding: 60px;
-  margin: 0;
+  margin: 20px;
   color: #000;
   text-align: center;
+  border-bottom:2px solid black;
 }
 
 /* Giving the .post element margin on 3 sides */

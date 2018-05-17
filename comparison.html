@@ -44,22 +44,16 @@
   </nav>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-8" style="background:white;">
-        <h1>Max Temperature</h1>
+      <div class="col-md-12" style="background:white;">
+        <h1>Comparison: Latitude vs X</h1>
+        <p>Click any plot to get an in-depth analysis.</p>
+        <br>
       </div>
-      <div class= "col-md-4" style="background:white;">
-        <h1>Visualizations</h1>
-      </div>
-    <div class="row">
-      <div class="col-md-8" style="background:white;">
-          <img style="float: left; margin: 0px 10px 10px 0px; width:40%; height:auto" ; src="assets/images/temperaturemap.png" width="100" />
-          <p style="line-height: 2;">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-          <br>
-          <p style="line-height: 2;">After assemling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-      </div>
-      <div class="col-md-4" style="background:white;">
+    </div>
+      <div class="col-md-12" style="background:white;">
         <div class="col-sm-6">
             <article>
+              <h2> vs. Cloudiness</h2>
               <a target="_blank" href="assets/images/cloudymap.png">
                 <img src="assets/images/cloudymap.png" alt="Cloudy Map" width=100% height=auto>
               </a>
@@ -67,6 +61,7 @@
         </div>
         <div class="col-sm-6">
             <article>
+            <h2> vs. Humidity</h2>
             <a target="_blank" href="assets/images/humiditymap.png">
             <img src="assets/images/humiditymap.png" alt="Humidity Map" width=100% height=auto>
             </a>
@@ -75,12 +70,14 @@
         <div class="row">
         <div class="col-sm-6">
           <article>
+              <h2> vs. Temperature</h2>
             <a href="assets/images/temperaturemap.png">
             <img target="_blank" src="assets/images/temperaturemap.png" alt="Tempurature Map" width=100% height=auto>
             </a>
           </article>
         </div>
         <div class="col-sm-6">
+          <h2> vs. Wind Speed</h2>
           <figure>
             <a target="_blank" href="assets/images/windmap.png">
             <img src="assets/images/windmap.png" alt="Wind Map" width=100% height=auto>
